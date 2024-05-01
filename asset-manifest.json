@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "https://jimini1026.github.io/movie_app_react/static/css/main.3955a439.css",
-    "main.js": "https://jimini1026.github.io/movie_app_react/static/js/main.eb563eea.js",
+    "main.js": "https://jimini1026.github.io/movie_app_react/static/js/main.a9ac2f1b.js",
     "index.html": "https://jimini1026.github.io/movie_app_react/index.html",
     "main.3955a439.css.map": "https://jimini1026.github.io/movie_app_react/static/css/main.3955a439.css.map",
-    "main.eb563eea.js.map": "https://jimini1026.github.io/movie_app_react/static/js/main.eb563eea.js.map"
+    "main.a9ac2f1b.js.map": "https://jimini1026.github.io/movie_app_react/static/js/main.a9ac2f1b.js.map"
   },
   "entrypoints": [
     "static/css/main.3955a439.css",
-    "static/js/main.eb563eea.js"
+    "static/js/main.a9ac2f1b.js"
   ]
 }

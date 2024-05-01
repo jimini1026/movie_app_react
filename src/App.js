@@ -7,10 +7,16 @@ function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path={"/movie/:id"} element={<Detail />} />
+        <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />} />
+        <Route
+          path={`${process.env.PUBLIC_URL}/movie/:id`}
+          element={<Detail />}
+        />
         {/* ReactRouter에게 여기 오는 id값이 뭔지 알고 싶다 말하는 것(useParams 통해서 id 값 이용 가능) */}
-        <Route path="/loading" element={<Loading />} />
+        <Route
+          path={`${process.env.PUBLIC_URL}/loading`}
+          element={<Loading />}
+        />
       </Routes>
     </BrowserRouter>
   );

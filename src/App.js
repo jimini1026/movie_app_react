@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import Home from "./routes/Home";
+import Detail from "./routes/Detail";
+import Loading from "./components/Loading";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path={"/movie/:id"} element={<Detail />} />
+        {/* ReactRouter에게 여기 오는 id값이 뭔지 알고 싶다 말하는 것(useParams 통해서 id 값 이용 가능) */}
+        <Route path="/loading" element={<Loading />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "https://jimini1026.github.io/movie_app/static/css/main.3955a439.css",
+    "main.js": "https://jimini1026.github.io/movie_app/static/js/main.1fc3538e.js",
+    "static/js/453.0b30a3d5.chunk.js": "https://jimini1026.github.io/movie_app/static/js/453.0b30a3d5.chunk.js",
+    "index.html": "https://jimini1026.github.io/movie_app/index.html",
+    "main.3955a439.css.map": "https://jimini1026.github.io/movie_app/static/css/main.3955a439.css.map",
+    "main.1fc3538e.js.map": "https://jimini1026.github.io/movie_app/static/js/main.1fc3538e.js.map",
+    "453.0b30a3d5.chunk.js.map": "https://jimini1026.github.io/movie_app/static/js/453.0b30a3d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3955a439.css",
+    "static/js/main.1fc3538e.js"
+  ]
+}
